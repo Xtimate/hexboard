@@ -1,0 +1,42 @@
+** Drc report for hexboard.kicad_pcb **
+** Created on 2026-05-12T22:42:15 **
+** Report includes: Errors **
+
+** Found 1 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(174.6500 mm, 91.2800 mm): Zone 'Ground' [GND] on F.Cu, priority 0
+    @(110.3725 mm, 89.7600 mm): Pad 1 [GND] of U2 on F.Cu
+
+** Found 5 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.1100 mm, 64.9000 mm): Zone 'GroundB' [GND] on F.Cu and B.Cu, priority 1
+    @(129.1100 mm, 64.9000 mm): Zone 'GroundB' [GND] on F.Cu and B.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.1100 mm, 64.9000 mm): Zone 'GroundB' [GND] on F.Cu and B.Cu, priority 1
+    @(129.1100 mm, 64.9000 mm): Zone 'GroundB' [GND] on F.Cu and B.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.1100 mm, 64.9000 mm): Zone 'GroundB' [GND] on F.Cu and B.Cu, priority 1
+    @(129.1100 mm, 64.9000 mm): Zone 'GroundB' [GND] on F.Cu and B.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.7250 mm, 123.7950 mm): Track [XIN] on F.Cu, length 1.5910 mm
+    @(127.6000 mm, 125.8800 mm): Track [XIN] on F.Cu, length 1.8700 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.1000 mm, 127.6900 mm): Track [XOUT] on F.Cu, length 0.0354 mm
+    @(129.1000 mm, 128.7100 mm): Track [XOUT] on F.Cu, length 1.0100 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
